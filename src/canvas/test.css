@@ -1,0 +1,25 @@
+canvas {
+    background-color: #61dafb;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    left: 20%;
+    border:10px solid #282c34;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.but_jpg {
+    width: 100px;
+    height: 50px;
+    background-color: chartreuse;
+}
+
+.but_png {
+    width: 100px;
+    height: 50px;
+    background-color: chartreuse;
+}

@@ -1,7 +1,5 @@
 canvas {
     background-color: #61dafb;
-    width: 1000px;
-    height: 500px;
     position: relative;
     left: 20%;
     border:10px solid #282c34;
@@ -23,3 +21,4 @@ canvas {
     height: 50px;
     background-color: chartreuse;
 }
+

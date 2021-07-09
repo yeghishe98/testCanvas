@@ -46,8 +46,11 @@ function Foo() {
     reader.addEventListener("load", function () {
       const image = new Image();
       image.src = reader.result;
+      console.log(canvasRef.current.width,canvasRef.current.height)
+      let image_width = (canvasRef.current.width - 100);
+      let image_height = ((canvasRef.current.width - 100)/canvasRef.current.width) * canvasRef.current.height;
       image.onload = function() {
-           ctx.drawImage(image, 10, 10, 320, 200);
+           ctx.drawImage(image, 10, 10, image_width, image_height);
          }
     }, false);
 
